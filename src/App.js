@@ -14,8 +14,6 @@ const counterSlice = createSlice({
   },
 });
 
-console.log("ok");
-
 const { increment } = counterSlice.actions;
 
 const store = configureStore({
@@ -30,7 +28,7 @@ const Krishna = () => {
   console.log(count);
 
   const addig_15 = () => {
-    dispatch(increment(15));
+    dispatch(increment(16));
   };
 
   return (
