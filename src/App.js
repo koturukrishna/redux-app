@@ -26,6 +26,8 @@ const Krishna = () => {
   const dispatch = useDispatch();
   const count = useSelector((state) => state.krish26.value);
   console.log(count);
+  
+  console.log("krishna koturu");
 
   const addig_15 = () => {
     dispatch(increment(16));
